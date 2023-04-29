@@ -1,0 +1,336 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    display: flex;
+    padding-bottom: 3vh;
+    margin-left: 0vh;
+    background-color:white;
+    border: 3px solid gray;
+}
+.links ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 3vh;
+}
+a{
+    text-decoration: none;
+    padding-top: 0vh;
+    color:#0075b5;
+    font-weight: 900;
+    font-size: large;
+    text-transform: capitalize;
+    font-style: italic;
+    position: absolute;
+}
+a:hover{
+    color: #03045e;
+    
+}
+.portfolio{
+    padding-left: 20vh;
+    padding-right: 50vh;
+    padding-top: 1vh;
+}
+.links ul li{
+    padding-left: 20vh;
+}
+.links{
+    padding-left: 2vh;
+}
+body{
+    background-image: url(./blue.pn);
+    background-color: lightseagreen;
+    border-radius: 100px;
+    max-width: 100vw;
+}
+.portword{
+    display: flex;
+}
+#port{
+    color: #003459;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 0vh 1vh 1vh grey;
+}
+#folio{
+    color: red;
+    font-family:cursive;
+    text-shadow: 0vh 1vh 1vh grey;
+
+}
+.info{
+    color: aliceblue;
+    text-transform: capitalize;
+    margin: auto;
+    margin-inline: auto;
+}
+#name{
+    color: rgb(8 235 8);
+    font-size: 7vh;
+    text-shadow: 2px 3px 6px black;
+}
+
+.photo img{
+    margin-left: 3vh;
+    margin-right: 10vh;
+    margin-top: 8vh;
+    border-radius: 10vh;
+    height: 44vh;
+    border: 0.6vh solid forestgreen;
+}
+.about{
+    margin-top: 7vh;
+    margin-left: 7vh;
+    width: 190vh;
+    height: 60vh;
+    display: flex;
+    background-color: teal;
+    border-radius: 20vh;
+    border-color: black;
+}
+.info{
+    text-align: center;
+}
+.info p{
+    font-style:italic;
+    font-family: cursive;
+    font-size: 2.2vh;
+}
+#hello{
+    font-size: 3.0vh;
+
+}
+p{
+    width: 60vh;
+    color: white;
+}
+.int{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 1253px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: rgb(7, 101, 184);
+}
+#growth{
+    width: 300px;
+    text-transform: capitalize;
+}
+.vedant_name{
+    font-size: 9vh;
+    color: midnightblue;
+    font-family: fantasy;
+    margin-left: 130vh;
+    padding: 1vh;
+}
+.b_e_student{
+    font-size: 3vh;
+    color: burlywood;
+    margin-left: 5vh;
+    font-family: serif;
+    text-transform: capitalize;
+
+}
+.aboutbox{
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-top: 3vh;
+}
+.background_about_info p{
+    width: auto;
+}
+.aboutbox{
+    background-color: teal;
+    border-radius: 1vh;
+}
+.background_about_info{
+    padding: 3vh;
+}
+.aboutbox_second{
+    padding: 5vh;
+    margin-right: 2vh;
+    margin-left: 2vh;
+    background-color: teal;
+    border-radius: 1vh;
+}
+.aboutbox_second h2{
+    text-transform:uppercase;
+    color: yellow;
+}
+.aboutbox_second p{
+    width:auto;
+
+}
+.modules_selection{
+    padding: 20px;
+    padding-left: 110px;
+}
+.modules_selection a{
+    display: contents;
+}
+.modules_selection img{
+    width: 20vh;
+    margin-left: 3vh;
+    margin-top: 4vh;
+    padding: 5vh;
+    border-radius: 1vh;
+    box-shadow: #03045e 0.5vh 0.5vh 0.5vh;
+}
+.modules_selection img:hover{
+    width: 19.5vh;
+    box-shadow: none;
+}
+.modules_selection img:hover{
+    width: 19.5vh;
+    padding-left: 5.5vh;
+}
+.contact p{
+    font-size: 3vh;
+    color: midnightblue;
+    text-transform: capitalize;
+    text-align:center;
+}
+.contact h1{
+    text-transform: capitalize;
+    text-align: center;
+    color: midnightblue;
+}
+.contact_info{
+    margin-right: 150vh;
+    text-align: center;
+    display: flex;
+}
+.contact_info h2{
+    color: midnightblue;
+}
+.contact_info img{
+    width: 7vh;
+    background-color: skyblue;
+    padding: 1vh;
+    border-radius: 5vh;
+}
+.contact_info_address{
+    padding: 5vh;
+    padding-right: 10vh;
+    margin-left: 20vh;
+}
+.contact_info_contact{
+    padding: 5vh;
+    padding-right: 10vh;
+    margin-left: 14vh;
+}
+.contact_info_contact a{
+    color: burlywood;
+
+}
+.contact_info_contact a:hover{
+    color: burlywood;
+}
+#email{
+    text-transform: none;
+}
+#h1_module1{
+    color: #8dcad2;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 3vh;
+    text-shadow: #003459 1vh 1vh 1vh;
+}
+.content_module1_1{
+    display: flex;
+    margin-top: 5vh;
+}
+.content_module1_1 p{
+    text-transform: capitalize;
+    margin-top: 10vh;
+    margin-right: 25vh;
+    color: burlywood;
+    margin-left: 10vh;
+    font-size: large;
+    width: 100vh;
+}
+.content_module1_1 img{
+    height: 35vh;
+    border-radius: 3vh;
+}
+.content_module1_2 img{
+    height: 50vh;
+    border-radius: 3vh;
+    margin-left: 10vh;
+}
+.content_module1_2{
+    display: flex;
+}
+.content_module1_2 p{
+    text-transform: capitalize;
+    margin-top: 20vh;
+    margin-right: 25vh;
+    color: burlywood;
+    margin-left: 10vh;
+    font-size: large;
+    width: 100vh;
+}
+.content_module1_3{
+    display: flex;
+}
+.content_module1_4{
+    display: flex;
+}
+.content_module1_5{
+    display: flex;
+}
+.content_module1_3 p{
+    text-transform: capitalize;
+    margin-top: 20vh;
+    margin-right: 25vh;
+    color: burlywood;
+    margin-left: 10vh;
+    font-size: large;
+    width: 100vh;
+    margin-bottom: 20vh;
+}
+.content_module1_4 p{
+    text-transform: capitalize;
+    margin-top: 20vh;
+    margin-right: 25vh;
+    color: burlywood;
+    margin-left: 10vh;
+    font-size: large;
+    width: 100vh;
+    margin-bottom: 20vh;
+}
+.content_module1_5 p{
+    text-transform: capitalize;
+    margin-top: 20vh;
+    margin-right: 25vh;
+    color: burlywood;
+    margin-left: 10vh;
+    font-size: large;
+    width: 100vh;
+    margin-bottom: 20vh;
+}
+.content_module1_3 img{
+    height: 50vh;
+    border-radius: 3vh;
+    margin-left: 10vh;
+}
+.content_module1_4 img{
+    height: 50vh;
+    border-radius: 3vh;
+    margin-left: 10vh;
+}
+.content_module1_5 img{
+    height: 50vh;
+    border-radius: 3vh;
+    margin-left: 10vh;
+    margin-top: 10vh;
+}
+.endcolor{
+    background-color: black;
+    height: 5vh;
+    border-top: solid white;
+}
+
+
+
